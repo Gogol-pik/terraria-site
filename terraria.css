@@ -3,8 +3,12 @@
 </style>
 
 .first {
-    display: flex;
-    font-family: Montserrat;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+
+
 }
 
 header {
@@ -13,20 +17,56 @@ header {
     flex-wrap: nowrap;
     justify-content: space-around;
     aligh-items: flex-start;
-    index-z: 1;
 
 }
 
 .head {
-width: 100%;
-height: 25%;
-overflow: hide;
-}
-
-.igg {
-    index-z: 0
-    background-image: cosmos.png;
+    z-index: 0;
+    background-image:url("cosmos.png");
     width: 100%;
     height: 25%;
     overflow: hide;
+
+}
+
+.igg {
+    width: 100%;
+    height: 25%;
+    overflow: hide;
+}
+
+.vach {
+    z-index:1;
+}
+
+.sach {
+    z-index-z:1;
+}
+.dach {
+    z-index-z:1;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-down: 100px;
+    background-color: green;
+}
+
+.fons {
+    z-index: 0;
+    background-image: url("terraria-fon.png");
+    width: 100%;
+    height: 45%;
+    overflow: hide;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
