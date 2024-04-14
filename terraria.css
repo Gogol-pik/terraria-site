@@ -2,12 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
 </style>
 
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+</style>
+
 .first {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
 
+}
+
+
+
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 
 }
 
@@ -29,6 +42,23 @@ header {
 
 }
 
+.cosmos{
+    display: flex;
+    flex-direction: row;
+    background-image: url("cosmos.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    width: 80%;
+    height: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .igg {
     width: 100%;
     height: 25%;
@@ -36,14 +66,21 @@ header {
 }
 
 .vach {
-    z-index:1;
+    z-index: 1;
+    x-index: 5px;
+    y-index: 5px;
 }
 
 .sach {
     z-index-z:1;
+    margin-right: 20%;
+    margin-left: 20%;
+    top: 5px;
 }
 .dach {
     z-index-z:1;
+    margin-left: ;
+    color: white;
 }
 
 main {
@@ -51,22 +88,72 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 80%;
+    height: 50%;
     margin-left: 10%;
     margin-down: 100px;
-    background-color: green;
+    color: white;
+}
+
+.single {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+
+.indenity {
+    margin: 30px;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.brone {
+
+    width: 45px;
+    height: 45px;
+
 }
 
 .fons {
-    z-index: 0;
+    display: flex;
+    flex-direction: column;
     background-image: url("terraria-fon.png");
     width: 100%;
-    height: 45%;
-    overflow: hide;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fons_two {
+
+    display: flex;
+    flex-direction: column;
+    background-image: url("maxresdefault.png");
+    width: 100%;
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 footer {
     display: flex;
     flex-direction: column;
+    height: 15%;
     justify-content: space-evenly;
-    margin-top: 50px;
+    z-index: 1;
+    color: white;
+}
+
+.preispodnaya {
+    display: flex;
+    flex-direction: row;
+    background-image: url("преисподняя.png");
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
