@@ -20,6 +20,14 @@
 
 }
 
+.koster:focus {
+
+    display: flex;
+    width: 60px;
+    height: 48px;
+
+}
+
 h1 {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
